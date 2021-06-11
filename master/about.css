@@ -43,6 +43,9 @@
     list-style-type: none;
     font-family: 'Cardo', serif;
     color: #7f0000;
+    background-color: #818589;
+    width: 30vw;
+    border: 1px solid black;
 }
 
 .card-info{
@@ -60,7 +63,14 @@
     font-family: 'Indie Flower', cursive;
 }
 
-.phone, .city{
+.phone, .email{
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Cardo', serif;
+    color: 	#7f0000;
+}
+
+.city{
     font-size: 20px;
     text-align: left;
     font-family: 'Cardo', serif;
