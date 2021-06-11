@@ -12,22 +12,15 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    /* padding: 10px; */
-    border: 1px solid black;
     justify-content: left;
     width: 60vw;
-    box-shadow: 3px 3px 6px;
-    margin-top: 80px;
-    margin-left: 100px;
+    box-shadow: 4px 4px 8px;
+    margin-top: 150px;
+    margin-left: 250px;
+    background-color: white;
 }
-/* 
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-} */
+
+
 
 #pic{
     width: 300px;
@@ -40,16 +33,36 @@
 }
 
 .address{
-    text-align: left;
-    margin-bottom: 30px;
     font-size: 30px;
-    padding-left: 40px;
+    /* padding-left: 40px; */
+    list-style-type: none;
 }
 
 .title{
-    font-size: 40px;
+    font-size: 60px;
+    list-style-type: none;
+    font-family: 'Cardo', serif;
+    color: #7f0000;
+}
+
+.card-info{
+    text-align: left;
+    /* margin-top: 40px; */
+
 }
 
 .job{
     font-size: 20px;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    color: 	black;
+    font-family: 'Indie Flower', cursive;
+}
+
+.phone, .city{
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Cardo', serif;
+    color: 	#7f0000;
 }
