@@ -4,6 +4,7 @@
 .navbar{
   position: fixed;
   box-shadow: 3px 3px 6px black;
+  background: plum;
 }
 
 .icon{
