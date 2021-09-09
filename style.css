@@ -96,6 +96,7 @@ width: 100vw
   height: auto;
   display: flex;
   margin: 50px auto;
+  
 }
 
 .resume .resume_left {
@@ -225,7 +226,8 @@ width: 100vw
 }
 
 .resume .resume_right {
-  width: 520px;
+  /* width: 520px; */
+  max-width: 1200px;
   background: #fff;
   padding: 25px;
 }
@@ -312,6 +314,8 @@ width: 100vw
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
 }
+
+
 /****end-resume****/
 
 
