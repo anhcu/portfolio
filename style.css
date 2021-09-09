@@ -100,7 +100,7 @@ width: 100vw
 }
 
 .resume .resume_left {
-  width: 210px;
+  width: 220px;
   background: #0bb5f4;
 }
 
@@ -315,6 +315,15 @@ width: 100vw
   display: none;
 }
 
+@media (max-width: 550px) {
+  .resume, .resume_left, .resume_profile, .resume_right, .resume_content, .resume_item, .resume_info, .resume_skills, .resume_social, .resume_about, .resume_work, .resume_education, .resume_hobby
+  {
+    max-width: 1200px;
+  }
+  .resume_work{
+    padding-left: 60px;
+  }
+}
 
 /****end-resume****/
 
