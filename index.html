@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portfolio
     </title>
 </head>
 
 <body>
   <header class="bg-title">
-    <div class="title">
+    <div class="title" data-aos="fade-left">
       <div class="hi" style="font-size: 100px;">Hi!</div>
       <div class="iAm" style="font-size: 70px;">I'm a Web Developer</,>
       </div>
@@ -317,5 +318,12 @@
   }
   </script>
 <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset:400,
+    duration: 1000
+  });
+</script>
 </body>
 </html>
